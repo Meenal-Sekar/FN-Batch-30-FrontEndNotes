@@ -1,0 +1,21 @@
+image
+
+video
+
+audio
+
+marquee(moving text)
+
+iframe
+
+direction
+--------
+
+default: left
+right,up,down
+
+behavior : slide,scroll,alternate
+
+loop:  scrollcount
+
+scorllamount: speed of text

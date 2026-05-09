@@ -1,0 +1,8 @@
+👉CSS Grid is used for a two-dimensional layout, with rows AND columns.
+
+//display:grid
+grid-template-column:repeat(3,1fr)
+gap:10px;
+
+grid-row:  row span 2
+grid-column: col span 2

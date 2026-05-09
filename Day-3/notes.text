@@ -1,0 +1,29 @@
+ctrl+/   
+
+(command)
+
+
+html 4:
+
+<b></b>   bold the text    <strong></strong>
+<i></i>    italic          <em></em>
+<u></u>  underline        <mark></mark>
+
+
+<span class="c1">Beautiful></span>
+
+.c1{
+    font-weight:bold
+    font-style:italic
+    text-decoration:underline
+}
+
+
+
+
+
+//margin:20px:  Applicable 4 direction
+//margin: 10px 20px   Applicatble for 2 direction
+10 : top/bottom  20: left/right
+
+margin-left:10px

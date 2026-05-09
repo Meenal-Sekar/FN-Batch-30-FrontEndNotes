@@ -1,0 +1,29 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body{
+    color:aqua;
+    background:url("https://cdn.pixabay.com/photo/2023/10/30/20/20/hourglass-8353745_960_720.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+
+}
+#time
+{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    right:0;
+     
+}
+
+#day
+{
+    position: absolute;
+    right: 10px;
+    top:40px;
+}

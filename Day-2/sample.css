@@ -1,0 +1,29 @@
+h1{
+    color:blue;
+}
+
+.name1
+{
+    color:green;
+}
+
+#name1
+{
+    color:brown;
+}
+p{
+    background-color: navy;
+}
+
+
+/* css specificity */
+
+/* 3 ways to connect css */
+
+/* 
+1. inline css  <h1 style="color:red;backgroundcolor:blue">
+2. internal css  <head> <style></sytle>
+3. external css   link:css
+
+
+*/

@@ -1,0 +1,52 @@
+html
+
+1. head (link,title,meta,)
+2. body (browser--outpus)
+//h1,p,img,audio,.........
+
+
+shift+1   (Basic tags)
+
+to save the document  (ctrl+s)
+
+html Preview  (negakaz)
+Live server    (Ritwick day (wifi))
+
+
+ctrl+shift+p   (For short cut set)(show live server preview)(ctrl+home)
+
+
+html5  (Version)
+//utf  unicode text format
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="description" content="Learn HTML basics">
+
+  <meta name="keywords" content="HTML | CSS -Web Development">
+
+  <meta name="author" content="Meenal">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+
+CSS  -- Cascading style sheet
+
+
+how to connect css with html
+--------------------------------------
+
+head  ---> link:css
+
+
+href  ---> hyperlink refernce
+
+css--->  img{   }
+
+<br> --- break tag    (no closing tag)
+<img>                 (no closing tag)
+
+
+to hide/show explorer  ctrl+b

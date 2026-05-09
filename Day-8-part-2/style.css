@@ -1,0 +1,42 @@
+
+
+.container
+{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+.left-container
+{
+    background-color: #fc532e;
+   padding:40px;
+  
+}
+.right-container
+{
+    background-color: #ffe6e0;
+     padding:40px;
+     padding-left:60px;
+     
+}
+
+.b1
+{
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.b2
+{
+    background-color:#fc532e;
+    color:white;
+    padding:10px 20px;
+    border-radius: 20px;
+    border: none;
+}

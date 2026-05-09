@@ -1,0 +1,6 @@
+order - Specifies the display order of the flex items inside the flex container
+flex-grow - Specifies how much a flex item will grow relative to the rest of the flex items
+flex-shrink - Specifies how much a flex item will shrink relative to the rest of the flex items
+flex-basis - Specifies the initial length of a flex item
+flex - Shorthand property for flex-grow, flex-shrink, and flex-basis
+align-self - Specifies the alignment for the flex item inside the flex container

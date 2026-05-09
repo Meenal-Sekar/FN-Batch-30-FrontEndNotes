@@ -1,0 +1,17 @@
+CPBM  outline(color)
+
+The CSS Box Model is a fundamental concept in web design that describes how every HTML element is represented as a rectangular box, and how its size and spacing are calculated.
+
+Each box consists of four layers (from inside out):
+
+Content – The actual text, image, or other media inside the element.
+Padding – Space between the content and the element’s border.
+Border – The line surrounding the padding and content.
+Margin – Space outside the border, separating the element from others.
+
+
+
+top
+right
+bottom
+left

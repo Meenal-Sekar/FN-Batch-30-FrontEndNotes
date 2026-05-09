@@ -1,0 +1,5 @@
+   let           const                  var
+
+   no-reassign   no-reassign           it accept duplicates  -- reassign  (last usage)
+   re-declare    re-decalare accept
+   blockscoped   blockscoped            generalscope

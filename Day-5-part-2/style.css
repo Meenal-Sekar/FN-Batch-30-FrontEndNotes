@@ -1,0 +1,65 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.showcase
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position:relative;
+    border: 2px solid red;;
+}
+
+.video-container
+{
+    position: absolute;
+    border:2px solid green;
+}
+
+.content
+{
+    z-index:1;
+    color:white;
+}
+.content h1{
+    margin-bottom: 20px;
+}
+.content a{
+    background-color: lightcoral;
+    color:brown;
+    padding:5px;
+    
+   
+}
+.content .g1
+{
+    margin-left: 150px;
+}
+
+#story1,#story2
+{
+    margin-top: 140px;
+    margin-left:20px
+}
+
+#story1::first-letter,#story2::first-letter
+{
+    color:green;
+    font-size: 40px;
+}
+
+#contact
+{
+    text-align: center;
+}
+
+#contact h1,i{
+    color:brown;
+}
+#contact h2{
+    color:green;
+}

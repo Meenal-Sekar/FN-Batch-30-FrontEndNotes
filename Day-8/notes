@@ -1,0 +1,26 @@
+What is flexbox
+
+👉Flexbox is a layout model for arranging items (horizontally or vertically)
+ within a container, in a flexible and responsive way.
+
+👉Flexbox makes it easy to design a flexible
+ and responsive layout, without using float or positioning.
+
+ 👉CSS Flexbox is used for a one-dimensional layout, with rows OR columns.
+
+👉CSS Grid is used for a two-dimensional layout, with rows AND columns.
+
+Flex properties
+----------------------------
+ 1️⃣display:flex
+
+ 2️⃣ flex-direction : row,row-reverse, column, column reverse
+ 3️⃣ align-items:center,left,right,algin-self:center
+
+ 4️⃣justify-content:     (spacebetween,around,space evenly)(flexstart,flexend,center)
+
+ 5️⃣ flex-wrap    ----->wrap,no-wrap,wrap-reverse
+
+ 6️⃣ flex-basis(style: flex-basis:250px)
+ 7️⃣ flex-grow   (increase)
+ 8️⃣ flex-shrink (decrease)

@@ -1,0 +1,51 @@
+CSS  Cascading style sheet
+
+It is used to design the html elements
+
+Bootstrap
+tailwind CSS
+
+Basic Css Syntax:
+
+element{
+    property:value;
+}
+
+3 ways to connect css part
+----------------------------
+
+1. inline Css
+2. internal css 
+3. External Css
+
+
+selectors:
+----------------------------
+1. #id selectors
+2. .class selectors
+3. element selectors
+4. universal selector  (*)
+5. group selector   table,tr,th,td{border:2px solid red}
+
+
+block vs inline
+----------------------------
+block  <h1></h1>.....  (width:100%)
+inline  img,a,span,button,input  (width:depends on content)
+
+
+semantic and non-semantic
+----------------------------
+
+semantic--- meaning ful tag <header></header><footer></footer><nav></nav>
+
+non-sementic----div,span
+
+
+background-property
+----------------------------
+
+1. background-color
+2. background-image 
+3. background-position
+4. back

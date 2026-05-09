@@ -1,0 +1,18 @@
+
+h1{
+    color:blue;
+    background-color: cyan;
+    font-style: italic;
+    border:5px solid green;
+}
+
+p{
+    color:green;
+    font-weight: bold;
+    background-color:violet;
+}
+
+
+/* color: property    green-->value */
+
+/* {property : value} */

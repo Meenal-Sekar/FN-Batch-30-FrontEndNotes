@@ -1,0 +1,15 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-color: rgb(154, 247, 247);
+    color:brown;
+}
+
+video{
+    border: 10px double navy;
+}

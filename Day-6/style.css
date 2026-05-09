@@ -1,0 +1,34 @@
+h1{
+    color:orange;
+}
+
+body
+{
+    /* background: linear-gradient(69deg,#bb27c7 20%, #0022ff 80%);
+    background-repeat: no-repeat;
+    height: 100vh; */
+
+    background-image: url("https://assets.website-files.com/619e8d2e8bd4838a9340a810/647c1064ff56a339fe548410_profile-picture-feature-3.webp");
+  background-repeat: no-repeat;
+  margin-right: 200px;
+  background-attachment: fixed;
+   
+
+  
+    
+}
+img{
+    background-attachment: fixed;
+}
+
+#r1
+{
+    background-color: orange;
+    
+    color:navy;
+
+}
+.t1{
+    background-color: green;
+    color:white;
+}

@@ -1,0 +1,82 @@
+ 
+ *
+ {
+    margin:0;
+    padding:0;
+ }
+ img{
+            border: 2px solid red;
+            height: 200px;
+            width: 200px;
+    }
+body
+{
+    background-color: white;
+}
+    img:hover{
+        filter:brightness(90%) ;
+        transform: scale(0.98);
+
+        
+    }
+
+
+    div{
+        height: 50px;
+        width: 50px;
+          background-color: green;
+        border-radius: 50%;
+        text-align: center;
+        color: orange;
+        animation: sanjai 7s linear infinite;
+        position: absolute;
+    }
+
+    h2{
+        color:red;
+        animation: meena 0.5s linear infinite;
+        font-weight: bold;
+    }
+
+    @keyframes sanjai 
+    {
+    0%
+        {
+            background-color: green;
+            top:0;left:0;
+
+        }
+
+        25%
+        {
+            background-color: blue;
+            top:0;left:200px;
+        }
+        50%
+        {
+            background-color: red;
+            top:200px;left:200px;
+        }
+        75%
+        {
+            background-color: yellow;
+            left:0;top:200px;
+        }
+        100%
+        {
+            background-color: green;
+            top:0;left:0;
+        }
+    }
+
+    @keyframes meena {
+
+        0%
+        {
+            opacity: 1;
+        }
+        100%
+        {
+            opacity: 0;
+        }
+    }

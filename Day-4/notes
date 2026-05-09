@@ -1,0 +1,13 @@
+Form Validation
+
+1. To add manditory    (required)
+2. type="password"  type="email"  @
+3. input type="submit"  -->Validation possible
+
+how to set pattern in email,password then phone
+
+1. Password Pattern: pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"  
+
+2. Email Pattern:  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+
+3. Phone number:  pattern="\d{10}"

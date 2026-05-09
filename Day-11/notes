@@ -1,0 +1,7 @@
+/* Device Type	Width Range (px)	Example CSS Media Query
+Small Mobile	up to 320px	@media (max-width: 320px) { ... }
+Mobile (Portrait)	321px – 480px	@media (max-width: 480px) { ... }
+Mobile (Landscape)	481px – 767px	@media (max-width: 767px) { ... }
+Tablet (Portrait)	768px – 1024px	@media (max-width: 1024px) { ... }
+Tablet (Landscape) / Small Laptop	1025px – 1280px	@media (max-width: 1280px) { ... }
+Desktop	1281px and above	@media (min-width: 1281px) { ... } */

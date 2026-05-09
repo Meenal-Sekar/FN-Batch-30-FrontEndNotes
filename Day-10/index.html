@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position Property</title>
+    <style>
+        .relative
+        {
+            height: 100px;
+            background-color: green;
+            border: 2px solid yellow;
+           position: absolute;
+            left:100px;
+            overflow:scroll;
+        }
+
+        .main
+        {
+            height: 200px;
+            background-color: blue;
+            color:black;
+            position: relative;
+           left: 20px;
+           
+        }
+        .sub1{
+            position:absolute;
+        }
+        .sub2
+        {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+<!-- 
+    <div class="relative">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut eveniet, autem blanditiis facilis exercitationem cupiditate voluptates tenetur, similique nihil, veritatis quas? Quam mollitia atque laborum fuga obcaecati 
+            asperiores natus!</p>
+    </div> -->
+
+
+    <div class="main">
+        <div class="sub1">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut eveniet, autem blanditiis facilis exercitationem cupiditate voluptates tenetur, similique nihil, veritatis quas? Quam mollitia atque laborum fuga obcaecati 
+            asperiores natus!</p>
+        </div>
+        <div class="sub2">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut eveniet, autem blanditiis facilis exercitationem cupiditate voluptates tenetur, similique nihil, veritatis quas? Quam mollitia atque laborum fuga obcaecati 
+            asperiores natus!</p>
+        </div>
+    </div>
+</body>
+</html>

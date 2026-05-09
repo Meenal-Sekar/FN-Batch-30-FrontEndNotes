@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <br>
+   <form>
+        <label for=""><span>*</span>Firstname</label>
+        <input type="text" placeholder="Enter your name:" required>
+        <label for=""><span>*</span>Email:</label>
+        <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+>
+        <label><span>*</span>Password:</label>
+        <input type="password"   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+         title="6 characters 1 Capital letter 1 number must" > 
+
+        <label ><span>*</span>Phone No:</label>
+        <input type="text" placeholder="12345XXXXX" pattern="\d{10}"
+             minlength="10"
+             maxlength="10">
+
+
+        <label>Gender:</label>
+        <input type="radio" name="g1">Male
+        <input type="radio" name="g1">Female
+        <br>
+        <label><span>*</span>Country:</label>
+        <input type="checkbox">Indian
+        <input type="checkbox">Foreigner
+        <label>Select Course:</label>
+        <select>
+            <option>Choose</option>
+            <option>DSML</option>
+            <option>FSD</option>
+            <option>ST</option>
+        </select>
+        <label><span>*</span>Address:</label>
+        <textarea rows="4">
+
+        </textarea>
+
+        <label>URL:</label>
+        <input type="url">
+
+        <label for="">Include:</label>
+        <input type="file">
+
+        <label><span>*</span>Date of birth:</label>
+        <input type="date" >
+
+       
+        <input type="submit" value="signup">
+
+   </form> 
+</body>
+</html>

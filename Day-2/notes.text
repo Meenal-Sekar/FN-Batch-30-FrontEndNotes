@@ -1,0 +1,62 @@
+no closing tags
+---------------
+
+<br>
+<img>
+<input>
+<hr>
+
+
+hint
+------
+img->border-radius:50%
+
+image will be displayed on circle
+
+
+span
+------
+It is a inline tag
+
+css selectors   (iice)
+--------------
+element selector  h1{} p {}  (No symbol)
+class selector  (.)
+id selector    (#)
+inline selector   <h1 style="color:red">
+
+
+3ways to connect css
+-----------------------------------
+
+1.inline css connection <h1 style="color:red">
+2.internal css connection    
+
+<head>
+<style>
+
+    h1{
+        color:red;
+    }
+</style>
+</head>
+
+3. Exrernal css connection   (link:css)<head></head>
+
+
+ol  -- > order list
+default: 1, 2,3
+type: a,A,1,I
+
+ul --> unoder list
+default :  dark circle
+square,circle,desc
+
+
+
+table family
+-----------
+table  (table start tag)
+td      Table data (column)
+tr      Table row
+th      Table header

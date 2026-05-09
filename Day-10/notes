@@ -1,0 +1,7 @@
+relative(parent container)
+absolute(sub content)
+
+fixed(navbar,picture )
+sticky
+
+static(Default)(no-changes)
