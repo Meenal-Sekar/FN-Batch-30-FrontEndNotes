@@ -1,0 +1,35 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+    
+}
+body
+{
+    background-image: url('https://th.bing.com/th/id/OIP.BfJifrkoNYHVOc9-_zx_9QHaEo?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:white;
+}
+.countdown
+{
+    display: flex;
+}
+
+#time
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin:15px;
+}
