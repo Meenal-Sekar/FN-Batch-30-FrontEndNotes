@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="t1">Login</button>
+    <p id="t2"></p>
+
+    <script>
+
+        let t1=document.getElementById('t1')
+
+
+        function hello()
+        {
+            document.getElementById('t2').innerHTML="Welcome to the class"
+            document.body.style.backgroundColor="pink";
+            document.body.style.color="red"
+        }
+        function welcome()
+        {
+            document.getElementById('t2').innerHTML="Good morning everyone"
+             document.body.style.backgroundColor="yellow";
+            document.body.style.color="brown"
+        }
+
+        t1.addEventListener("click",hello);
+        t1.addEventListener("dblclick",welcome)
+    </script>
+</body>
+</html>

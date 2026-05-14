@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Background Color</title>
+  <style>
+    button
+    {
+        position: absolute;
+        left:170px;
+        top:180px;
+        
+    }
+  </style>
+</head>
+
+<body id="body">
+
+  <button id="btn">Change Color</button>
+
+  <script>
+    const button = document.getElementById("btn");
+
+    // addEventListener
+    button.addEventListener("mouseout", function () {
+
+      
+      const randomColor =
+        "#" + Math.floor(Math.random() * 16777215).toString(16);
+
+   
+      document.body.style.backgroundColor = randomColor;
+    });
+  </script>
+
+</body>
+</html>
