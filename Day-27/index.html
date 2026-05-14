@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="t1">I like HTML and CSS</h1>
+
+     <p class="text">First Paragraph</p>
+    <p class="text">Second Paragraph</p>
+    <p class="text">Third Paragraph</p>
+
+
+     <h2>Heading1</h2>
+    <h2>Heading2</h2>
+     <h2>Heading3</h2>
+
+     <h3 id="t4">Welcome to FSD world</h3>
+     <h3 class="t5">Welcome to FSD world</h3>
+
+    <p class="para1">No 1 paragraph</p>
+    <p class="para1">No 2 paragraph</p>
+    <p class="para1">No 3 paragraph</p>
+    
+    
+    <script>
+        document.getElementById('t1').innerText="I like Javascript concepts"
+
+         let elements = document.getElementsByClassName("text");
+            elements[0].innerText = "Changed";
+            elements[0].style.backgroundColor="yellow";
+              elements[2].style.color="blue";
+
+         let designs=document.getElementsByTagName('h2');
+         designs[1].innerText="I like entri"
+         designs[1].style.backgroundColor="navy"
+         designs[1].style.color="white"
+
+
+         let t4=document.querySelector('#t4')
+         let t5=document.querySelector('.t5')
+         t4.innerText="I like sports and games"
+         t5.innerText="I like music and dance"
+
+    
+
+       
+
+    </script>
+</body>
+</html>
