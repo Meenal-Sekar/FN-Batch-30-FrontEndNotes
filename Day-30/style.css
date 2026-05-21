@@ -1,0 +1,33 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+ body {
+      font-family: Arial;
+      text-align: center;
+      background-color: #f1f2b2;
+    }
+
+     input {
+      padding: 10px;
+      width: 200px;
+    }
+
+    .btn
+    {
+        background-color: navy;
+        color:white;
+        padding:10px;
+    }
+    #btn
+    {
+        margin-top: 30px;
+    }
+
+    .card
+    {
+        border: 2px solid navy;
+        color:green;
+        padding:10px;
+    }
