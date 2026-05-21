@@ -1,0 +1,56 @@
+*
+{
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.blink
+{
+    text-align: center;
+    font-size: 30px;
+    color:red;
+    animation: blink 3s infinite linear;
+}
+
+@keyframes blink 
+{
+    0%
+    {
+        opacity: 1;
+        color:red;
+    }
+    50%
+    {
+        color:blue;
+        opacity: 0;
+
+    }
+    100%
+    {
+        opacity: 1;
+        color:green
+    }
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/c0/48/5c/c0485c584db088ad5cc6f7962d6f900d.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    text-align: center;
+     width:100%;
+    border-top: 8px solid navy;
+    padding: 40px 20px;
+    position: absolute;
+    bottom:0;
+
+
+}
